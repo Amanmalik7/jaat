@@ -10,6 +10,17 @@ namespace jaat
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            int sum = 0;
+            while(i<=5)
+            {
+                sum += 1;
+                i++;
+
+            }
+            Console.WriteLine(" sum is {0}");
+            Console.ReadLine();
+
         }
     }
 }
